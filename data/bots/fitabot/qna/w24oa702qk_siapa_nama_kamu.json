@@ -1,0 +1,21 @@
+{
+  "id": "w24oa702qk_siapa_nama_kamu",
+  "data": {
+    "answers": {
+      "en": [
+        "Nama saya adalah Fitabot (Fiqih Wanita bot)"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Siapa nama kamu?",
+        "Nama kamu siapa?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

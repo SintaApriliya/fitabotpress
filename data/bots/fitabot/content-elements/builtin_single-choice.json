@@ -1,0 +1,96 @@
+[
+  {
+    "id": "builtin_single-choice-hxsNDZ",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Haid dan Nifas",
+          "value": "Haid dan Nifas"
+        },
+        {
+          "title": "Pernikahan",
+          "value": "Pernikahan"
+        },
+        {
+          "title": "Puasa",
+          "value": "Puasa"
+        },
+        {
+          "title": "Jenazah",
+          "value": "Jenazah"
+        },
+        {
+          "title": "Haji dan Umrah",
+          "value": "Haji dan Umrah"
+        },
+        {
+          "title": "Penyusuan",
+          "value": "Penyusuan"
+        },
+        {
+          "title": "Faraidh",
+          "value": "Faraidh"
+        },
+        {
+          "title": "Pergaulan Wanita",
+          "value": "Pergaulan Wanita"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Materi apa yang ingin anda ketahui?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T04:28:23.810Z",
+    "modifiedOn": "2020-02-27T04:28:23.810Z"
+  },
+  {
+    "id": "builtin_single-choice-kXmNDQ",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Definisi Puasa",
+          "value": "definisi puasa"
+        },
+        {
+          "title": "Kewajiban Puasa",
+          "value": "kewajiban puasa"
+        },
+        {
+          "title": "Keutamaan Puasa",
+          "value": "keutamaan puasa"
+        },
+        {
+          "title": "Hari-hari Puasa Sunnah",
+          "value": "hari puasa sunnah"
+        },
+        {
+          "title": "Waktu Dimakruhkan Puasa",
+          "value": "waktu makruh puasa"
+        },
+        {
+          "title": "Waktu Haram Puasa",
+          "value": "waktu haram puasa"
+        },
+        {
+          "title": "Hal-hal Yang Boleh Dilakukan Wanita Saat Berpuasa",
+          "value": "hal yang boleh dilakukan wanita saat puasa"
+        },
+        {
+          "title": "Puasa Wanita Hamil dan Menyusui",
+          "value": "puasa wanita hamil dan menyusui"
+        },
+        {
+          "title": "Wanita Yang Meninggal dan Memiliki Utang Puasa",
+          "value": "wanita meninggal dan memiliki hutang puasa"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Materi apa yang ingin anda ketahui tentang bab Puasa?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-28T06:02:42.230Z",
+    "modifiedOn": "2020-02-28T06:02:42.230Z"
+  }
+]

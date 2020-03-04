@@ -1,0 +1,105 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "a4113b60f3",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "puasa_2"
+        }
+      ]
+    },
+    {
+      "id": "68e371ead5",
+      "name": "puasa_2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "tanyaawal"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8_AOWF"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f9ede8f94c",
+      "name": "tanyaawal",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-akQNP4"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-3ad53f",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-3ad53f",
+      "flow": "skills/choice-3ad53f.flow.json",
+      "next": [
+        {
+          "caption": "User picked [definis...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"definisi puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [kewajib...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"kewajiban puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [keutama...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"keutamaan puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [hari pu...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"hari puasa sunnah\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [waktu m...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"waktu makruh puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [waktu h...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"waktu haram puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [hal yan...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"hal yang boleh dilakukan wanita saat puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [puasa w...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"puasa wanita hamil dan menyusui\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [wanita ...]",
+          "condition": "temp['skill-choice-ret-tjq7jbo1px'] == \"wanita meninggal dan memiliki hutang puasa\"",
+          "node": ""
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

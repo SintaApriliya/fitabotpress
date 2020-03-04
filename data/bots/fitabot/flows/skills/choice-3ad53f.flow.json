@@ -1,0 +1,115 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "tjq7jbo1px",
+    "contentId": "builtin_single-choice-kXmNDQ",
+    "invalidContentId": "",
+    "keywords": {
+      "definisi puasa": [
+        "definisi puasa",
+        "Definisi Puasa"
+      ],
+      "kewajiban puasa": [
+        "kewajiban puasa",
+        "Kewajiban Puasa"
+      ],
+      "keutamaan puasa": [
+        "keutamaan puasa",
+        "Keutamaan Puasa"
+      ],
+      "hari puasa sunnah": [
+        "hari puasa sunnah",
+        "Hari-hari Puasa Sunnah"
+      ],
+      "waktu makruh puasa": [
+        "waktu makruh puasa",
+        "Waktu Dimakruhkan Puasa"
+      ],
+      "waktu haram puasa": [
+        "waktu haram puasa",
+        "Waktu Haram Puasa"
+      ],
+      "hal yang boleh dilakukan wanita saat puasa": [
+        "hal yang boleh dilakukan wanita saat puasa",
+        "Hal-hal Yang Boleh Dilakukan Wanita Saat Berpuasa"
+      ],
+      "puasa wanita hamil dan menyusui": [
+        "puasa wanita hamil dan menyusui",
+        "Puasa Wanita Hamil dan Menyusui"
+      ],
+      "wanita meninggal dan memiliki hutang puasa": [
+        "wanita meninggal dan memiliki hutang puasa",
+        "Wanita Yang Meninggal dan Memiliki Utang Puasa"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-kXmNDQ {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "920646"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"tjq7jbo1px\",\"contentId\":\"builtin_single-choice-kXmNDQ\",\"invalidContentId\":\"\",\"keywords\":{\"definisi puasa\":[\"definisi puasa\",\"Definisi Puasa\"],\"kewajiban puasa\":[\"kewajiban puasa\",\"Kewajiban Puasa\"],\"keutamaan puasa\":[\"keutamaan puasa\",\"Keutamaan Puasa\"],\"hari puasa sunnah\":[\"hari puasa sunnah\",\"Hari-hari Puasa Sunnah\"],\"waktu makruh puasa\":[\"waktu makruh puasa\",\"Waktu Dimakruhkan Puasa\"],\"waktu haram puasa\":[\"waktu haram puasa\",\"Waktu Haram Puasa\"],\"hal yang boleh dilakukan wanita saat puasa\":[\"hal yang boleh dilakukan wanita saat puasa\",\"Hal-hal Yang Boleh Dilakukan Wanita Saat Berpuasa\"],\"puasa wanita hamil dan menyusui\":[\"puasa wanita hamil dan menyusui\",\"Puasa Wanita Hamil dan Menyusui\"],\"wanita meninggal dan memiliki hutang puasa\":[\"wanita meninggal dan memiliki hutang puasa\",\"Wanita Yang Meninggal dan Memiliki Utang Puasa\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-tjq7jbo1px'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "497691"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"tjq7jbo1px\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-tjq7jbo1px']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "372083"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "251422"
+    }
+  ]
+}

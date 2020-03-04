@@ -1,0 +1,13 @@
+{
+  "name": "__qna__w24oa702qk_siapa_nama_kamu",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Siapa nama kamu?",
+      "Nama kamu siapa?"
+    ]
+  },
+  "slots": []
+}

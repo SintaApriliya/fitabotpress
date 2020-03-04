@@ -1,0 +1,14 @@
+{
+  "name": "__qna__vwa4z0939l_berapa_umur_kamu",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Berapa umur kamu?",
+      "Umur kamu berapa?",
+      "Umur berapa?"
+    ]
+  },
+  "slots": []
+}

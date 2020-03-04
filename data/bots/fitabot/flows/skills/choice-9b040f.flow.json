@@ -1,0 +1,103 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "vmmuqh1z7e",
+    "contentId": "builtin_single-choice-hxsNDZ",
+    "invalidContentId": "",
+    "keywords": {
+      "Haid dan Nifas": [
+        "Haid dan Nifas"
+      ],
+      "Pernikahan": [
+        "Pernikahan"
+      ],
+      "Puasa": [
+        "Puasa"
+      ],
+      "Jenazah": [
+        "Jenazah"
+      ],
+      "Haji dan Umrah": [
+        "Haji dan Umrah"
+      ],
+      "Penyusuan": [
+        "Penyusuan"
+      ],
+      "Faraidh": [
+        "Faraidh"
+      ],
+      "Pergaulan Wanita": [
+        "Pergaulan Wanita"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-hxsNDZ {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "512374"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"vmmuqh1z7e\",\"contentId\":\"builtin_single-choice-hxsNDZ\",\"invalidContentId\":\"\",\"keywords\":{\"Haid dan Nifas\":[\"Haid dan Nifas\"],\"Pernikahan\":[\"Pernikahan\"],\"Puasa\":[\"Puasa\"],\"Jenazah\":[\"Jenazah\"],\"Haji dan Umrah\":[\"Haji dan Umrah\"],\"Penyusuan\":[\"Penyusuan\"],\"Faraidh\":[\"Faraidh\"],\"Pergaulan Wanita\":[\"Pergaulan Wanita\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-vmmuqh1z7e'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "896488"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"vmmuqh1z7e\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-vmmuqh1z7e']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "458702"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "023681"
+    }
+  ]
+}

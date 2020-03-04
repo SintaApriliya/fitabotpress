@@ -1,0 +1,199 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "perkenalan"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text--AyIIY",
+        "say #!builtin_text-E_Ycej"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2293bf25bd",
+      "name": "perkenalan",
+      "next": [
+        {
+          "condition": "true",
+          "node": "materi"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-eOx8mc"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"nickname\",\"value\":\"{{event.payload.text}}\"}",
+        "say #!builtin_text-f9bvry"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "cf1369310d",
+      "name": "node-846f",
+      "next": [
+        {
+          "condition": "true",
+          "node": "materi"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "da8a296826",
+      "name": "haid_dan_nifas",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text--1C3vt",
+        "say #!builtin_text-Av0FRK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-9b040f",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "materi",
+      "flow": "skills/choice-9b040f.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Haid da...]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Haid dan Nifas\"",
+          "node": "haid_dan_nifas"
+        },
+        {
+          "caption": "User picked [Pernika...]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Pernikahan\"",
+          "node": "pernikahan"
+        },
+        {
+          "caption": "User picked [Puasa]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Puasa\"",
+          "node": "puasa"
+        },
+        {
+          "caption": "User picked [Jenazah]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Jenazah\"",
+          "node": "jenazah"
+        },
+        {
+          "caption": "User picked [Haji da...]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Haji dan Umrah\"",
+          "node": "haji_dan_umrah"
+        },
+        {
+          "caption": "User picked [Penyusu...]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Penyusuan\"",
+          "node": "penyusuan"
+        },
+        {
+          "caption": "User picked [Faraidh]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Faraidh\"",
+          "node": "faraidh"
+        },
+        {
+          "caption": "User picked [Pergaul...]",
+          "condition": "temp['skill-choice-ret-vmmuqh1z7e'] == \"Pergaulan Wanita\"",
+          "node": "pergaulan_wanita"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-846f"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d3e1d65d17",
+      "name": "pernikahan",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-9M5mKT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "134e3cf4c7",
+      "name": "puasa",
+      "next": [
+        {
+          "condition": "true",
+          "node": "puasa_flow.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RqdZUp"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d890d0cf5e",
+      "name": "jenazah",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-MBSVO0"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4befedf5a1",
+      "name": "haji_dan_umrah",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-S_gmZ0",
+        "say #!builtin_text-bftrQD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2a69758411",
+      "name": "penyusuan",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-3spsC_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "142cfee4ef",
+      "name": "faraidh",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-gii4GE"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3c1315fa98",
+      "name": "pergaulan_wanita",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-IvwhIN"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vwa4z0939l_berapa_umur_kamu",
+  "data": {
+    "answers": {
+      "en": [
+        "Saya berumur dua hari"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Berapa umur kamu?",
+        "Umur kamu berapa?",
+        "Umur berapa?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "global",
+    "enabled": true
+  }
+}

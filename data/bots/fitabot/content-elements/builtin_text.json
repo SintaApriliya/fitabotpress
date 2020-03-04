@@ -1,0 +1,244 @@
+[
+  {
+    "id": "builtin_text--AyIIY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Assalamu'alaikum"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:07:27.249Z",
+    "modifiedOn": "2020-02-25T07:10:03.383Z"
+  },
+  {
+    "id": "builtin_text-E_Ycej",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Perkenalkan saya Fitabot"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:09:13.802Z",
+    "modifiedOn": "2020-02-25T08:50:14.435Z"
+  },
+  {
+    "id": "builtin_text-eOx8mc",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Siapakah nama anda?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:14:30.891Z",
+    "modifiedOn": "2020-02-25T07:23:26.767Z"
+  },
+  {
+    "id": "builtin_text-f9bvry",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Senang berbicara denganmu {{user.nickname}} ^^"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:27:44.777Z",
+    "modifiedOn": "2020-02-25T07:27:44.777Z"
+  },
+  {
+    "id": "builtin_text-yikC6I",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Shalat merupakan tiang agama dan hukumnya wajib dilakukan dalam lima kali sehari."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:57:01.660Z",
+    "modifiedOn": "2020-02-25T08:44:58.275Z"
+  },
+  {
+    "id": "builtin_text--1C3vt",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Haid adalah darah yang keluar dari rahim dinding seorang wanita apabila telah menginjak masa baligh. "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T07:57:51.469Z",
+    "modifiedOn": "2020-02-27T05:14:00.003Z"
+  },
+  {
+    "id": "builtin_text--IOae-",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Shalat sendiri terdiri dari shalat wajib dan shalat sunnah."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-25T08:51:57.167Z",
+    "modifiedOn": "2020-02-25T08:57:09.067Z"
+  },
+  {
+    "id": "builtin_text-AdmGcg",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Adakah yang ingin anda tanyakan tentang materi Shalat?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-26T05:54:38.083Z",
+    "modifiedOn": "2020-02-26T05:54:38.083Z"
+  },
+  {
+    "id": "builtin_text-wfAevO",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Oh maaf, Siapa nama anda?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-26T06:20:59.944Z",
+    "modifiedOn": "2020-02-26T06:20:59.944Z"
+  },
+  {
+    "id": "builtin_text-FDRGY0",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Ok, saya akan memanggil kamu {{user.nickname}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-26T06:25:14.807Z",
+    "modifiedOn": "2020-02-26T06:25:14.807Z"
+  },
+  {
+    "id": "builtin_text-Gcbi3O",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Materi apa yang ingin anda ketahui?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T04:22:53.841Z",
+    "modifiedOn": "2020-02-27T04:22:53.841Z"
+  },
+  {
+    "id": "builtin_text-9M5mKT",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Menurut bahasa, nikah berarti penyatuan. Diartikan juga sebagai akad atau hubungan badan. Selain itu, ada juga yang mengartikannya dengan percampuran."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T04:50:17.816Z",
+    "modifiedOn": "2020-02-27T04:50:17.816Z"
+  },
+  {
+    "id": "builtin_text-RqdZUp",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Menurut bahasa, puasa berarti menahan. Sedangkan menurut syari'at, puasa berarti menahan diri secara khusus dan dalam waktu tertentu serta dengan syarat-syarat tertentu pula."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T04:59:24.303Z",
+    "modifiedOn": "2020-02-27T04:59:24.303Z"
+  },
+  {
+    "id": "builtin_text-MBSVO0",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Disunnahkan bagi wanita muslimah mengingat kematian, sebagaimana yang disebutkan dalam hadits dari Abdullah bin Umar."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:03:44.302Z",
+    "modifiedOn": "2020-02-27T05:03:44.302Z"
+  },
+  {
+    "id": "builtin_text-S_gmZ0",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Haji berarti keinginan keras menuju ke suatu tempat yang sangat diagungkan."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:11:15.978Z",
+    "modifiedOn": "2020-02-27T05:11:15.978Z"
+  },
+  {
+    "id": "builtin_text-bftrQD",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Umrah berarti ziarah. Artinya, ziarah ke Ka'bah, thawaf di sekelilingnya, sa'i antara Shafa dan Marwa serta memotong rambut."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:13:16.437Z",
+    "modifiedOn": "2020-02-27T05:13:16.437Z"
+  },
+  {
+    "id": "builtin_text-Av0FRK",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Sedangkan nifas adalah darah yang keluar disebabkan oleh kelahiran anak. "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:13:49.205Z",
+    "modifiedOn": "2020-02-27T05:46:22.589Z"
+  },
+  {
+    "id": "builtin_text-3spsC_",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Menurut bahasa, Radha'ah berarti penyusuan. Di dalam Al-qur'an pernah disebut bahwa sepuluh kali penyusuan itu menjadikan haram menikah antara orang yang menyusui dengan anak yang disusui."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:17:47.046Z",
+    "modifiedOn": "2020-02-27T05:17:47.046Z"
+  },
+  {
+    "id": "builtin_text-gii4GE",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Faraidh merupakan jama' dari kata faridhah yang berarti yang diwajibkan atau ditentukan. Sedangkan menurut syariat, faraidh berarti bagian yang telah ditentukan bagi ahli waris."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:20:06.580Z",
+    "modifiedOn": "2020-02-27T05:20:06.580Z"
+  },
+  {
+    "id": "builtin_text-IvwhIN",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Pergaulan wanita disini akan membahas tentang permasalahan antara suami dan istri. Antara lain pilih kasih suami diantara istri-istrinya, kecemburuan istri dan mencintai wanita."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:22:36.827Z",
+    "modifiedOn": "2020-02-27T05:22:36.827Z"
+  },
+  {
+    "id": "builtin_text-8_AOWF",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Puasa bulan Ramadhan merupakan amal ibadah yang diwajibkan bagi wanita muslimah yang berakal sehat dan telah mencapai usia baligh."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T05:54:55.050Z",
+    "modifiedOn": "2020-02-27T07:21:56.339Z"
+  },
+  {
+    "id": "builtin_text-akQNP4",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Apa yang ingin anda tanyakan tentang puasa?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-27T07:37:44.009Z",
+    "modifiedOn": "2020-02-27T07:37:44.009Z"
+  }
+]
