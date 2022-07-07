@@ -36,7 +36,7 @@
     "mobx": "4.9.4",
     "mobx-react": "^5.4.4",
     "mobx-react-devtools": "^6.1.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "ms": "^2.1.1",
     "multer": "^1.4.0",
     "multer-s3": "^2.7.0",
